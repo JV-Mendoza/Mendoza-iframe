@@ -1,0 +1,51 @@
+body{
+    background-image: url("books-background.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.output iframe{
+    height: 400px;
+    width: 800px;
+    float: right;
+    margin-top: 140px;
+    margin-right: 50px;
+    border: solid black;
+    border-width: thick;
+}
+p{
+    border: solid black;
+    background-color: rgb(242, 218, 188);
+    color: rgb(59, 44, 44);
+    padding: 20px;
+    margin: auto;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.meriam{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-top: 50px;
+    
+}
+.wiki{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+.wiktionary {
+    height: auto;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
