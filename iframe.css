@@ -5,10 +5,10 @@ body{
 }
 
 .output iframe{
-    height: 400px;
-    width: 800px;
+    height: 600px;
+    width: 900px;
     float: right;
-    margin-top: 140px;
+    margin-top: 180px;
     margin-right: 50px;
     border: solid black;
     border-width: thick;
@@ -26,6 +26,7 @@ p{
     left: 50%;
     top: 10%;
 }
+
 .meriam{
     height: 150px;
     width: 150px;
@@ -33,19 +34,26 @@ p{
     flex-direction: column;
     padding-left: 200px;
     padding-top: 50px;
-    
+    position: absolute;
+    margin-top: 120px;
 }
+
 .wiki{
     height: 150px;
     width: 150px;
     display: flex;
     flex-direction: column;
     padding-left: 200px;
+    position: absolute;
+    margin-top: 390px;
 }
+
 .wiktionary {
     height: auto;
     width: 150px;
     display: flex;
     flex-direction: column;
     padding-left: 200px;
+    position: absolute;
+    margin-top: 600px;
 }
